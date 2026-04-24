@@ -1,0 +1,13 @@
+
+# ============================================================
+# TEMPLATE : ctx_online_retail.properties
+# DESCRIPTION: Variables de contexte du job job_load_online_retail
+# ============================================================
+
+CHEMIN_FICHIER=/chemin/vers/dossier/
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=retaildb
+DB_SCHEMA=retail
+DB_USER=votre_user
+DB_PASSWORD=votre_mdp

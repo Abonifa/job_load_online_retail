@@ -1,0 +1,11 @@
+# Contexte avec mots de passe réels
+context/ctx_online_retail.properties
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dataset (trop volumineux)
+*.csv
+*.xlsx
+*.zip
