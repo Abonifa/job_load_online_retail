@@ -2,7 +2,7 @@
 
 **Projet Data Engineering — Talend TOS | PostgreSQL | UCI Online Retail**
 
-### Auteur : GBEYA ANNICET
+### Auteur : ANNICET
 
 Projet réalisé dans le cadre d'un apprentissage avancé de Talend TOS et du Data Engineering.
 
