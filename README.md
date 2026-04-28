@@ -10,13 +10,13 @@ Projet réalisé dans le cadre d'un apprentissage avancé de Talend TOS et du Da
 
 ## Description
 
-Job Talend TOS réalisant le chargement complet du dataset **UCI Online Retail** (541 909 transactions) depuis un fichier CSV vers une base de données PostgreSQL, avec :
+Le job job_load_online_retail réalise le chargement complet du dataset **UCI Online Retail** (541 909 transactions) depuis un fichier CSV vers une base de données PostgreSQL, avec :
 
 - Validation et routage des données (flux OK / flux rejet)
 - Enrichissement des lignes rejetées (code erreur, message métier, horodatage)
-- Supervision de l'exécution via table de log
+- Supervision de l'exécution via une table de log
 - Gestion des erreurs techniques (tDie, tLogCatcher)
-- Connexion partagée et variables de contexte (portabilité multi-environnements)
+- Connexion partagée et variables de contexte
 
 ---
 

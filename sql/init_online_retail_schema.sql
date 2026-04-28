@@ -41,7 +41,6 @@ BEGIN
         message_erreur  VARCHAR(500)    NOT NULL,
         date_rejet      TIMESTAMP       DEFAULT CURRENT_TIMESTAMP,
         nom_job         VARCHAR(200)    NOT NULL
-        --numero_ligne    INTEGER         NOT NULL
     );
     RAISE NOTICE 'TABLE retail.online_retail_rejet : OK';
 
@@ -54,12 +53,10 @@ BEGIN
         version_job         VARCHAR(20),
         date_debut          TIMESTAMP       NOT NULL,
         date_fin            TIMESTAMP,
-        --duree_secondes      INTEGER,
         nb_lignes_lues      INTEGER         DEFAULT 0,
         nb_lignes_ok        INTEGER         DEFAULT 0,
         nb_lignes_rejetees  INTEGER         DEFAULT 0,
-        --taux_rejet          DECIMAL(5,2),
-        statut              VARCHAR(20),    -- SUCCES / ECHEC / PARTIEL
+        statut              VARCHAR(20),
         message_fin         VARCHAR(500)
     );
     RAISE NOTICE 'TABLE retail.job_execution_log : OK';
